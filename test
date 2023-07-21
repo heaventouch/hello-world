@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-21T09:19:43.139Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="20.8.23" etag="0EQHDlBTSKfiaQqMA-8E" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-07-21T10:01:30.771Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="20.8.23" etag="1sINs_loWe6DCzQDyAV9" type="github" pages="2">
   <diagram id="9def6453-2ee8-3089-c1cc-d94dfb755643" name="Page-1">
     <mxGraphModel dx="1306" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -259,10 +259,119 @@
     </mxGraphModel>
   </diagram>
   <diagram id="nAwpic7gXQJATKjJIuhC" name="第 2 页">
-    <mxGraphModel dx="1306" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="871" dy="1646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fevdI9I8WVunqo92i2Iz-29" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="67.5" width="420" height="345" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-1" target="fevdI9I8WVunqo92i2Iz-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="240.0000000000001" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="240" />
+              <mxPoint x="250" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-14" value="1.create manual template&lt;br&gt;&amp;nbsp;and eacalation info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-5">
+          <mxGeometry x="-0.0864" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-1" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-3" target="fevdI9I8WVunqo92i2Iz-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="80" />
+              <mxPoint x="250" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-19" value="3. raise new ticket" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-18">
+          <mxGeometry x="-0.3986" relative="1" as="geometry">
+            <mxPoint x="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="fevdI9I8WVunqo92i2Iz-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="353" y="200" as="sourcePoint" />
+            <mxPoint x="473.03" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="200" />
+              <mxPoint x="380" y="290" />
+              <mxPoint x="520" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-16" value="2. record template to DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-15">
+          <mxGeometry x="-0.0649" y="-1" relative="1" as="geometry">
+            <mxPoint x="13" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-11" target="fevdI9I8WVunqo92i2Iz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="270" />
+              <mxPoint x="520" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-21" value="4. get escalation info &lt;br&gt;and record ticket to DB" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-20">
+          <mxGeometry x="-0.2667" y="2" relative="1" as="geometry">
+            <mxPoint x="19" y="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-11" target="fevdI9I8WVunqo92i2Iz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-23" value="5. flow to Job" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-22">
+          <mxGeometry x="-0.2524" y="2" relative="1" as="geometry">
+            <mxPoint x="9" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Web&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-26" value="6. escalate to Jira" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.083;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-12" target="fevdI9I8WVunqo92i2Iz-25">
+          <mxGeometry x="-0.0906" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="fevdI9I8WVunqo92i2Iz-12" target="fevdI9I8WVunqo92i2Iz-13">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="625" y="270" />
+              <mxPoint x="520" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-28" value="7. update ticket info" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="fevdI9I8WVunqo92i2Iz-27">
+          <mxGeometry x="0.1142" relative="1" as="geometry">
+            <mxPoint x="60" y="-30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Job&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="120" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DB&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="490" y="320" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Jira&lt;/font&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="105" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Ticket Center&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="67.5" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fevdI9I8WVunqo92i2Iz-33" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;custom template data flow&lt;/b&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="370" width="240" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
